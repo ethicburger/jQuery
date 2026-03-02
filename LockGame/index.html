@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lock Game</title>
+</head>
+<body>
+    <!--Set Title-->
+    <h1 id="lock-game-title">Welcome to the Lock Game</h1>
+    <div id="start-lock-game">
+        <button id="btn-start"><p>Start</p></button>
+    </div>
+
+    <div id="lock-game">
+        <div id="lock-game-info">
+            <p></p>
+        </div>
+        <div id="lock-game-board">
+            <div id="lock-game-board-unit">
+                <input type="number" value="0" min="0" max="9">
+                <input type="number" value="0" min="0" max="9">
+                <input type="number" value="0" min="0" max="9">
+            </div>
+        </div>
+        <button id="btn">
+            <p>Open Lock</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 0a4 4 0 0 1 4 4v2.05a2.5 2.5 0 0 1 2 2.45v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4m0 1a3 3 0 0 0-3 3v2h6V4a3 3 0 0 0-3-3"/>
+            </svg>
+        </button>
+    </div>
+    <!--jQuey 4.0.0-->
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
