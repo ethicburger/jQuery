@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+}
+
+.tab-options {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.tab-options li {
+    padding: 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.tab-options li:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.tab-content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}

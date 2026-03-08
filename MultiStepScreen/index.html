@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application | Multistep Screen</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/main.stylesheet.css">
+        <!-- JavaScript -->
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+        <!-- Tab Options List -->
+        <div class="tab-list">
+            <ul class="tab-options">
+                <li>Information</li>
+                <li>Documents</li>
+                <li>Maintenance</li>
+            </ul>
+        </div>
+
+        <!-- Tab Options -->
+        <div id="tab-information" class="tab-content">
+            <!-- Information Form -->
+            <form id="information-form" action="">
+                
+                <label for="brand">Brand</label>
+                <input id="brand" type="text">
+                         
+                <label for="seats">Seats</label>
+                <input id="seats" type="text">
+                
+                <label for="license-plate">License Plate</label>
+                <input id="license-plate" type="text">
+
+                <label for="color">Color</label>
+                <input id="color" type="input">
+                
+            </form>
+
+            <!-- Document Form -->
+            <form id="document-form" action="">
+                <label for="license-document">License Document</label>
+                <input id="license-document" type="file">
+
+                <label for="driver-license">Driver License</label>
+                <input id="driver-license" type="file">
+
+                <label for="car-insurance">Car Insurance</label>
+                <input id="car-insurance" type="file">
+            </form>
+
+            <!-- Maintenance Form -->
+            <form id="maintenance-form" action="">
+                <button id="add-car-maintenance">Add Car Maintenance</button>
+            </form>
+        </div>
+
+        <!-- Tab Actions -->
+        <div class="tab-options">
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+        </div>
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    </body>
+</html>
